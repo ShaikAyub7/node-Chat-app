@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title></title>
-    <script defer src="https://cdn.socket.io/4.8.0/socket.io.min.js"></script>
-    <link rel="stylesheet" href="./style.css" />
-    <script defer src="./index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <ul id="messages">
-      <!-- <li class="received left"></li>
-      <li class="sent right"></li> -->
-    </ul>
-
-    <form id="form" action="">
-      <input id="input" autocomplete="off" /><button>Send</button>
-    </form>
-    <script src="/socket.io/socket.io.js"></script>
+    <nav class="navbar">
+      <div>hello</div>
+      <ul class="list-container">
+        <li class="items">Home</li>
+        <li class="items">About</li>
+        <li class="items">Contact</li>
+        <li class="logout">Logout</li>
+        <li class="user"></li>
+      </ul>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
